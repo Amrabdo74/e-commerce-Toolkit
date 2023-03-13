@@ -1,0 +1,19 @@
+nav {
+    background-color: rgb(255, 253, 252);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.cart {
+    border: 1px solid #c7ab92;
+    border-radius: 8px;
+    /* border-color: #c7ab92; */
+    color: #c19041 !important;
+}
+.cart:hover {
+    background-color: #c19041 !important;
+    color: #fff !important;
+}
+@media (max-width: 980px) {
+    .cart {
+        width: 70px;
+    }
+}

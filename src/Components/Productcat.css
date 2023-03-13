@@ -1,0 +1,36 @@
+.allButton {
+    height: 100px;
+    padding: 20px 0;
+}
+
+.allButton button {
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+/* .allButton button:hover {
+    border: 1px solid rgb(206, 195, 195);
+} */
+.allButton button.active {
+
+    background-color: #d39e41;
+    color: #fff;
+}
+
+@media (max-width: 365px) {
+    .allButton button {
+        padding: 8px 5px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .allButton {
+        height: 80px;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+}

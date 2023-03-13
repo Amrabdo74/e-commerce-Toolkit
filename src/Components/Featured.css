@@ -1,0 +1,122 @@
+
+.Featured {
+    background: rgb(255, 253, 252);
+    padding: 3rem 0px;
+}
+.custam h2{
+    line-height: 1.8;
+    text-transform:capitalize ;
+    /* font-weight: bold; */
+    font-size: 40px;
+    color: #102a42;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.image {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    padding: 20px;
+}
+.image img {
+    height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+.underline {
+    height: 0.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6rem;
+    background: rgb(51, 51, 51);
+    margin-bottom: 30px;
+}
+.card{
+    padding: 15px;
+    /* height: 550px !important; */
+    margin-bottom: 15px ;
+}
+.content .header {
+    color: rgba(0, 0, 0, 0.85);
+    display: block;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 64px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.content .category {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1em;
+}
+.btn-header {
+    color: rgb(193, 144, 65) !important;
+    border-color: rgb(199, 171, 146) !important;
+}
+.btn-header:hover {
+    background-color: rgb(193, 144, 65) !important;
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(193, 144, 65) !important;
+}
+@media (max-width:550px) {
+    .Featured {
+    text-align: center !important;
+    } 
+    .card {
+        text-align: center !important;
+
+    }
+}
+.btn-product {
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    width: 148px;
+    background: rgb(186, 134, 70);
+    margin: 0px auto;
+    padding: 10px;
+    margin-top: 60px;
+    text-decoration: none;
+}
+.about__title {
+    color: #d39e41;
+    text-align: left;
+}
+
+.fw-bold {
+    font-weight: 700!important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+.about__title {
+    font-size: 150px;
+}
+.lead {
+    color: #617d98;
+}
+@media (max-width:500px) {
+    .about__title {
+        font-size: 50px;
+    }
+    .About{
+        width: 100%;
+        overflow:hidden ;
+    }
+
+}
+.contactform {
+    border-top:1px solid #617d98 ;
+    margin-top: 3px;
+    padding: 60px 0;
+}
+.contactTitle {
+    padding:0 0 60px 0;
+}
+.card-hight{
+    height: calc(79vh) !important;
+}
